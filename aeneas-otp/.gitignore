@@ -1,0 +1,6 @@
+/target/
+/.opam-root/
+/tools/aeneas/
+/tools/ocaml/
+/generated/*.llbc
+/proofs/.lake/

@@ -1,0 +1,9 @@
+[package]
+name = "aeneas-sigma"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+fastcrypto = { path = "../../fastcrypto/fastcrypto" }
+fastcrypto-tbls = { path = "../../fastcrypto/fastcrypto-tbls" }

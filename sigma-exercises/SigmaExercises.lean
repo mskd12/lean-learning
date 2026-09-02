@@ -1,0 +1,6 @@
+import SigmaExercises.Spec.Defs
+import SigmaExercises.Exercise01
+import SigmaExercises.Exercise02
+import SigmaExercises.Exercise03
+import SigmaExercises.Exercise04
+import SigmaExercises.Exercise05

@@ -1,0 +1,245 @@
+{
+  "aeneas_version": "74a460a2",
+  "charon_version": "0.1.240",
+  "crate": "aeneas_sigma",
+  "functions": [
+    {
+      "def_id": 7,
+      "lean_name": "fastcrypto.groups.ristretto255.RistrettoPoint.Insts.CoreOpsArithMulSharedRistrettoScalar.mul",
+      "lean_file": "/FastcryptoSigma/Code/FunsExternal_Template.lean",
+      "rust_name": "fastcrypto::groups::ristretto255::{impl core::ops::arith::Mul<&'_ fastcrypto::groups::ristretto255::RistrettoScalar> for fastcrypto::groups::ristretto255::RistrettoPoint}::mul::<'_>",
+      "is_local": false,
+      "source": {
+        "file": "/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/auto_ops-0.3.0/src/binary.rs",
+        "begin_line": 63,
+        "end_line": 63
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 8,
+      "lean_name": "fastcrypto.groups.ristretto255.RistrettoScalar.Insts.CoreOpsArithMulSharedRistrettoScalar.mul",
+      "lean_file": "/FastcryptoSigma/Code/FunsExternal_Template.lean",
+      "rust_name": "fastcrypto::groups::ristretto255::{impl core::ops::arith::Mul<&'_ fastcrypto::groups::ristretto255::RistrettoScalar> for fastcrypto::groups::ristretto255::RistrettoScalar}::mul::<'_>",
+      "is_local": false,
+      "source": {
+        "file": "/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/auto_ops-0.3.0/src/binary.rs",
+        "begin_line": 63,
+        "end_line": 63
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 12,
+      "lean_name": "fastcrypto.groups.ristretto255.RistrettoPoint.Insts.CoreCmpPartialEqRistrettoPoint.eq",
+      "lean_file": "/FastcryptoSigma/Code/FunsExternal_Template.lean",
+      "rust_name": "fastcrypto::groups::ristretto255::{impl core::cmp::PartialEq<fastcrypto::groups::ristretto255::RistrettoPoint> for fastcrypto::groups::ristretto255::RistrettoPoint}::eq",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/groups/ristretto255.rs",
+        "begin_line": 37,
+        "end_line": 37
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 11,
+      "lean_name": "fastcrypto.groups.ristretto255.RistrettoPoint.Insts.CoreOpsArithAddRistrettoPoint.add",
+      "lean_file": "/FastcryptoSigma/Code/FunsExternal_Template.lean",
+      "rust_name": "fastcrypto::groups::ristretto255::{impl core::ops::arith::Add<fastcrypto::groups::ristretto255::RistrettoPoint> for fastcrypto::groups::ristretto255::RistrettoPoint}::add",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/groups/ristretto255.rs",
+        "begin_line": 37,
+        "end_line": 37
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 6,
+      "lean_name": "fastcrypto.groups.ristretto255.RistrettoPoint.Insts.FastcryptoGroupsGroupElement.generator",
+      "lean_file": "/FastcryptoSigma/Code/FunsExternal_Template.lean",
+      "rust_name": "fastcrypto::groups::ristretto255::{impl fastcrypto::groups::GroupElement for fastcrypto::groups::ristretto255::RistrettoPoint}::generator",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/groups/ristretto255.rs",
+        "begin_line": 112,
+        "end_line": 112
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 9,
+      "lean_name": "fastcrypto.groups.ristretto255.RistrettoScalar.Insts.CoreOpsArithAddRistrettoScalar.add",
+      "lean_file": "/FastcryptoSigma/Code/FunsExternal_Template.lean",
+      "rust_name": "fastcrypto::groups::ristretto255::{impl core::ops::arith::Add<fastcrypto::groups::ristretto255::RistrettoScalar> for fastcrypto::groups::ristretto255::RistrettoScalar}::add",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/groups/ristretto255.rs",
+        "begin_line": 153,
+        "end_line": 153
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 3,
+      "lean_name": "FastcryptoSigma.fastcrypto_tbls.nizk.dl_sigma.commitRistrettoPoint",
+      "lean_file": "/FastcryptoSigma/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::nizk::dl_sigma::commit::<fastcrypto::groups::ristretto255::RistrettoPoint>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/nizk.rs",
+        "begin_line": 113,
+        "end_line": 113
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 4,
+      "lean_name": "FastcryptoSigma.fastcrypto_tbls.nizk.dl_sigma.respondRistrettoPoint",
+      "lean_file": "/FastcryptoSigma/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::nizk::dl_sigma::respond::<fastcrypto::groups::ristretto255::RistrettoPoint>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/nizk.rs",
+        "begin_line": 118,
+        "end_line": 122
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 10,
+      "lean_name": "FastcryptoSigma.fastcrypto_tbls.nizk.is_valid_relationRistrettoPoint",
+      "lean_file": "/FastcryptoSigma/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::nizk::is_valid_relation::<fastcrypto::groups::ristretto255::RistrettoPoint>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/nizk.rs",
+        "begin_line": 207,
+        "end_line": 213
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 5,
+      "lean_name": "FastcryptoSigma.fastcrypto_tbls.nizk.dl_sigma.verifyRistrettoPoint",
+      "lean_file": "/FastcryptoSigma/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::nizk::dl_sigma::verify::<fastcrypto::groups::ristretto255::RistrettoPoint>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/nizk.rs",
+        "begin_line": 127,
+        "end_line": 132
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 0,
+      "lean_name": "FastcryptoSigma.commit",
+      "lean_file": "/FastcryptoSigma/Code/Funs.lean",
+      "rust_name": "aeneas_sigma::commit",
+      "is_local": true,
+      "source": { "file": "src/lib.rs", "begin_line": 11, "end_line": 13 },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 1,
+      "lean_name": "FastcryptoSigma.respond",
+      "lean_file": "/FastcryptoSigma/Code/Funs.lean",
+      "rust_name": "aeneas_sigma::respond",
+      "is_local": true,
+      "source": { "file": "src/lib.rs", "begin_line": 16, "end_line": 22 },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 2,
+      "lean_name": "FastcryptoSigma.verify",
+      "lean_file": "/FastcryptoSigma/Code/Funs.lean",
+      "rust_name": "aeneas_sigma::verify",
+      "is_local": true,
+      "source": { "file": "src/lib.rs", "begin_line": 25, "end_line": 32 },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    }
+  ],
+  "types": [
+    {
+      "def_id": 0,
+      "lean_name": "fastcrypto.groups.ristretto255.RistrettoScalar",
+      "lean_file": "/FastcryptoSigma/Code/TypesExternal_Template.lean",
+      "rust_name": "fastcrypto::groups::ristretto255::RistrettoScalar",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/groups/ristretto255.rs",
+        "begin_line": 156,
+        "end_line": 156
+      }
+    },
+    {
+      "def_id": 1,
+      "lean_name": "fastcrypto.groups.ristretto255.RistrettoPoint",
+      "lean_file": "/FastcryptoSigma/Code/TypesExternal_Template.lean",
+      "rust_name": "fastcrypto::groups::ristretto255::RistrettoPoint",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/groups/ristretto255.rs",
+        "begin_line": 38,
+        "end_line": 38
+      }
+    }
+  ],
+  "globals": [],
+  "trait_decls": [],
+  "trait_impls": []
+}

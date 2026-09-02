@@ -1,0 +1,12 @@
+.DS_Store
+
+/.codex/
+/.agents/
+/tools/
+/aeneas-merkle/
+
+**/.lake/
+**/target/
+**/.opam-root/
+**/tools/
+**/generated/*.llbc
