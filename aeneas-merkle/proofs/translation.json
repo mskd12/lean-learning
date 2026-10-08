@@ -112,7 +112,7 @@
       "rust_name": "fastcrypto::merkle::{impl core::clone::Clone for fastcrypto::merkle::Node}::clone",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/merkle.rs",
         "begin_line": 23,
         "end_line": 23
       },
@@ -129,7 +129,7 @@
       "rust_name": "fastcrypto::merkle::{impl core::cmp::PartialEq<fastcrypto::merkle::Node> for fastcrypto::merkle::Node}::eq",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/merkle.rs",
         "begin_line": 23,
         "end_line": 23
       },
@@ -146,7 +146,7 @@
       "rust_name": "fastcrypto::merkle::{fastcrypto::merkle::Node}::bytes",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/merkle.rs",
         "begin_line": 33,
         "end_line": 33
       },
@@ -163,7 +163,7 @@
       "rust_name": "fastcrypto::merkle::{impl core::convert::From<fastcrypto::hash::Digest<32usize>> for fastcrypto::merkle::Node}::from",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/merkle.rs",
         "begin_line": 42,
         "end_line": 42
       },
@@ -180,7 +180,7 @@
       "rust_name": "fastcrypto::merkle::inner_hash",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/merkle.rs",
         "begin_line": 512,
         "end_line": 514
       },
@@ -197,7 +197,7 @@
       "rust_name": "fastcrypto::merkle::leaf_hash",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/merkle.rs",
         "begin_line": 502,
         "end_line": 504
       },
@@ -214,7 +214,7 @@
       "rust_name": "fastcrypto::merkle::{fastcrypto::merkle::MerkleProof<T>}::compute_root",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/merkle.rs",
         "begin_line": 144,
         "end_line": 155
       },
@@ -233,7 +233,7 @@
       "rust_name": "fastcrypto::merkle::{fastcrypto::merkle::MerkleProof<T>}::compute_root",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/merkle.rs",
         "begin_line": 137,
         "end_line": 137
       },
@@ -250,7 +250,7 @@
       "rust_name": "fastcrypto::merkle::{fastcrypto::merkle::MerkleProof<T>}::verify_proof",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/merkle.rs",
         "begin_line": 112,
         "end_line": 117
       },
@@ -267,7 +267,7 @@
       "rust_name": "fastcrypto::merkle::n_nodes",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/merkle.rs",
         "begin_line": 526,
         "end_line": 530
       },
@@ -286,7 +286,7 @@
       "rust_name": "fastcrypto::merkle::n_nodes",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/merkle.rs",
         "begin_line": 523,
         "end_line": 523
       },
@@ -303,7 +303,7 @@
       "rust_name": "fastcrypto::merkle::{fastcrypto::merkle::MerkleTree<T>}::build_from_leaf_hashes",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/merkle.rs",
         "begin_line": 404,
         "end_line": 408
       },
@@ -322,7 +322,7 @@
       "rust_name": "fastcrypto::merkle::{fastcrypto::merkle::MerkleTree<T>}::build_from_leaf_hashes",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/merkle.rs",
         "begin_line": 394,
         "end_line": 412
       },
@@ -341,7 +341,7 @@
       "rust_name": "fastcrypto::merkle::{fastcrypto::merkle::MerkleTree<T>}::build_from_leaf_hashes",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/merkle.rs",
         "begin_line": 385,
         "end_line": 385
       },
@@ -358,7 +358,7 @@
       "rust_name": "fastcrypto::merkle::{fastcrypto::merkle::MerkleTree<T>}::build_from_serialized_slice",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/merkle.rs",
         "begin_line": 356,
         "end_line": 359
       },
@@ -377,7 +377,7 @@
       "rust_name": "fastcrypto::merkle::{fastcrypto::merkle::MerkleTree<T>}::build_from_serialized_slice",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/merkle.rs",
         "begin_line": 350,
         "end_line": 352
       },
@@ -394,7 +394,7 @@
       "rust_name": "fastcrypto::merkle::{fastcrypto::merkle::MerkleTree<T>}::root",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/merkle.rs",
         "begin_line": 427,
         "end_line": 427
       },
@@ -411,7 +411,7 @@
       "rust_name": "fastcrypto::merkle::{fastcrypto::merkle::MerkleTree<T>}::get_proof",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/merkle.rs",
         "begin_line": 447,
         "end_line": 460
       },
@@ -430,7 +430,7 @@
       "rust_name": "fastcrypto::merkle::{fastcrypto::merkle::MerkleTree<T>}::get_proof",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/merkle.rs",
         "begin_line": 436,
         "end_line": 436
       },
@@ -446,7 +446,7 @@
       "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
       "rust_name": "aeneas_merkle::build_root",
       "is_local": true,
-      "source": { "file": "src/lib.rs", "begin_line": 13, "end_line": 15 },
+      "source": { "file": "src/lib.rs", "begin_line": 17, "end_line": 19 },
       "is_opaque": false,
       "can_fail": true,
       "can_diverge": true,
@@ -459,7 +459,7 @@
       "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
       "rust_name": "aeneas_merkle::inclusion_roundtrip",
       "is_local": true,
-      "source": { "file": "src/lib.rs", "begin_line": 22, "end_line": 33 },
+      "source": { "file": "src/lib.rs", "begin_line": 26, "end_line": 37 },
       "is_opaque": false,
       "can_fail": true,
       "can_diverge": true,
@@ -487,7 +487,7 @@
       "rust_name": "fastcrypto::error::FastCryptoError",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/error.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/error.rs",
         "begin_line": 18,
         "end_line": 18
       }
@@ -499,7 +499,7 @@
       "rust_name": "fastcrypto::hash::Digest",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/hash.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/hash.rs",
         "begin_line": 33,
         "end_line": 33
       }
@@ -511,7 +511,7 @@
       "rust_name": "fastcrypto::merkle::Node",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/merkle.rs",
         "begin_line": 24,
         "end_line": 24
       }
@@ -523,7 +523,7 @@
       "rust_name": "fastcrypto::merkle::MerkleProof",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/merkle.rs",
         "begin_line": 64,
         "end_line": 64
       }
@@ -535,7 +535,7 @@
       "rust_name": "fastcrypto::merkle::MerkleTree",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/merkle.rs",
         "begin_line": 315,
         "end_line": 315
       }
@@ -549,7 +549,7 @@
       "rust_name": "fastcrypto::hash::HashFunction::OUTPUT_SIZE",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/hash.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/hash.rs",
         "begin_line": 82,
         "end_line": 82
       },
@@ -562,7 +562,7 @@
       "rust_name": "fastcrypto::merkle::LEAF_PREFIX",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/merkle.rs",
         "begin_line": 18,
         "end_line": 18
       },
@@ -575,7 +575,7 @@
       "rust_name": "fastcrypto::merkle::INNER_PREFIX",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/merkle.rs",
         "begin_line": 19,
         "end_line": 19
       },
@@ -588,7 +588,7 @@
       "rust_name": "fastcrypto::merkle::EMPTY_NODE",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/merkle.rs",
         "begin_line": 20,
         "end_line": 20
       },
@@ -603,7 +603,7 @@
       "rust_name": "fastcrypto::hash::HashFunction",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/hash.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/hash.rs",
         "begin_line": 80,
         "end_line": 80
       }
@@ -692,7 +692,7 @@
       "rust_name": "fastcrypto::merkle::{impl core::convert::From<fastcrypto::hash::Digest<32usize>> for fastcrypto::merkle::Node}",
       "is_local": false,
       "source": {
-        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "file": "/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/d7822bf/fastcrypto/src/merkle.rs",
         "begin_line": 41,
         "end_line": 41
       },

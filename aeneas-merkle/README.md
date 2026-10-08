@@ -15,7 +15,8 @@ The Rust translation is complete. The generated Lean code includes:
 - Two small Rust entry points for the exercise.
 
 The Fastcrypto changes are on branch `aeneas-merkle-loop` at commit
-`d7822bf97`. The local Fastcrypto checkout must be at `../../fastcrypto`.
+`d7822bf97`. Cargo pins this exact Git revision. A local Fastcrypto checkout is
+not required.
 
 The proof project is not complete yet. Seven external functions still need
 concrete Lean models. There are no theorem statements or proofs yet.
@@ -119,6 +120,8 @@ Generate the Lean translation:
 ```sh
 make regenerate
 ```
+
+The first run downloads the pinned Fastcrypto revision from GitHub.
 
 Check the Rust wrapper:
 

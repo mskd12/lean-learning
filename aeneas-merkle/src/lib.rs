@@ -1,8 +1,12 @@
-//! Small verification entry points into fastcrypto's Merkle implementation.
+//! This crate exposes small verification entry points into Fastcrypto's Merkle implementation.
 //!
-//! The implementation remains in the local `fastcrypto` dependency. Charon is
-//! invoked with `--include fastcrypto::merkle`, so the bodies in that module are
-//! extracted rather than treated as opaque external calls.
+//! Why it exists:
+//! - The exercise verifies Fastcrypto code without copying `merkle.rs`.
+//! - Cargo pins the exact Fastcrypto revision used by the generated Lean code.
+//!
+//! How it works:
+//! 1. Charon includes the reachable functions in `fastcrypto::merkle`.
+//! 2. Aeneas translates those functions instead of treating them as opaque.
 
 use fastcrypto::{
     hash::HashFunction,
