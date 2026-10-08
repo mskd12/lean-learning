@@ -1,0 +1,704 @@
+{
+  "aeneas_version": "74a460a2",
+  "charon_version": "0.1.240",
+  "crate": "aeneas_merkle",
+  "functions": [
+    {
+      "def_id": 155,
+      "lean_name": "Shared0T.Insts.CoreConvertAsRef.as_ref",
+      "lean_file": "/FastcryptoMerkle/Code/FunsExternal_Template.lean",
+      "rust_name": "core::convert::{impl core::convert::AsRef<U> for &'_0 T}::as_ref",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/core/src/convert/mod.rs",
+        "begin_line": 720,
+        "end_line": 720
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 156,
+      "lean_name": "Slice.Insts.CoreConvertAsRefSlice.as_ref",
+      "lean_file": "/FastcryptoMerkle/Code/FunsExternal_Template.lean",
+      "rust_name": "core::convert::{impl core::convert::AsRef<[T]> for [T]}::as_ref",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/core/src/convert/mod.rs",
+        "begin_line": 850,
+        "end_line": 850
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 32,
+      "lean_name": "core.hint.must_use",
+      "lean_file": "/FastcryptoMerkle/Code/FunsExternal_Template.lean",
+      "rust_name": "core::hint::must_use",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/core/src/hint.rs",
+        "begin_line": 613,
+        "end_line": 613
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 31,
+      "lean_name": "alloc.fmt.format",
+      "lean_file": "/FastcryptoMerkle/Code/FunsExternal_Template.lean",
+      "rust_name": "alloc::fmt::format",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/alloc/src/fmt.rs",
+        "begin_line": 649,
+        "end_line": 649
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 117,
+      "lean_name": "alloc.vec.Vec.reserve",
+      "lean_file": "/FastcryptoMerkle/Code/FunsExternal_Template.lean",
+      "rust_name": "alloc::vec::{alloc::vec::Vec<T>}::reserve",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/alloc/src/vec/mod.rs",
+        "begin_line": 1460,
+        "end_line": 1460
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 17,
+      "lean_name": "alloc.vec.Vec.Insts.CoreConvertAsRefSlice.as_ref",
+      "lean_file": "/FastcryptoMerkle/Code/FunsExternal_Template.lean",
+      "rust_name": "alloc::vec::{impl core::convert::AsRef<[T]> for alloc::vec::Vec<T>}::as_ref",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/alloc/src/vec/mod.rs",
+        "begin_line": 4401,
+        "end_line": 4401
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 20,
+      "lean_name": "FastcryptoMerkle.fastcrypto.merkle.Node.Insts.CoreCloneClone.clone",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "fastcrypto::merkle::{impl core::clone::Clone for fastcrypto::merkle::Node}::clone",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "begin_line": 23,
+        "end_line": 23
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 37,
+      "lean_name": "FastcryptoMerkle.fastcrypto.merkle.Node.Insts.CoreCmpPartialEqNode.eq",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "fastcrypto::merkle::{impl core::cmp::PartialEq<fastcrypto::merkle::Node> for fastcrypto::merkle::Node}::eq",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "begin_line": 23,
+        "end_line": 23
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 152,
+      "lean_name": "FastcryptoMerkle.fastcrypto.merkle.Node.bytes",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "fastcrypto::merkle::{fastcrypto::merkle::Node}::bytes",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "begin_line": 33,
+        "end_line": 33
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 157,
+      "lean_name": "FastcryptoMerkle.fastcrypto.merkle.Node.Insts.CoreConvertFromDigest32.from",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "fastcrypto::merkle::{impl core::convert::From<fastcrypto::hash::Digest<32usize>> for fastcrypto::merkle::Node}::from",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "begin_line": 42,
+        "end_line": 42
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 118,
+      "lean_name": "FastcryptoMerkle.fastcrypto.merkle.inner_hash",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "fastcrypto::merkle::inner_hash",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "begin_line": 512,
+        "end_line": 514
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 15,
+      "lean_name": "FastcryptoMerkle.fastcrypto.merkle.leaf_hash",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "fastcrypto::merkle::leaf_hash",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "begin_line": 502,
+        "end_line": 504
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 36,
+      "lean_name": "FastcryptoMerkle.fastcrypto.merkle.MerkleProof.compute_root_loop",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "fastcrypto::merkle::{fastcrypto::merkle::MerkleProof<T>}::compute_root",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "begin_line": 144,
+        "end_line": 155
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": true,
+      "reducible": false,
+      "loop": { "id": 0, "pos": [ 0 ], "is_body": false },
+      "parent_lean_name": "FastcryptoMerkle.fastcrypto.merkle.MerkleProof.compute_root"
+    },
+    {
+      "def_id": 36,
+      "lean_name": "FastcryptoMerkle.fastcrypto.merkle.MerkleProof.compute_root",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "fastcrypto::merkle::{fastcrypto::merkle::MerkleProof<T>}::compute_root",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "begin_line": 137,
+        "end_line": 137
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 7,
+      "lean_name": "FastcryptoMerkle.fastcrypto.merkle.MerkleProof.verify_proof",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "fastcrypto::merkle::{fastcrypto::merkle::MerkleProof<T>}::verify_proof",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "begin_line": 112,
+        "end_line": 117
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 116,
+      "lean_name": "FastcryptoMerkle.fastcrypto.merkle.n_nodes_loop",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "fastcrypto::merkle::n_nodes",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "begin_line": 526,
+        "end_line": 530
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": true,
+      "reducible": false,
+      "loop": { "id": 0, "pos": [ 0 ], "is_body": false },
+      "parent_lean_name": "FastcryptoMerkle.fastcrypto.merkle.n_nodes"
+    },
+    {
+      "def_id": 116,
+      "lean_name": "FastcryptoMerkle.fastcrypto.merkle.n_nodes",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "fastcrypto::merkle::n_nodes",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "begin_line": 523,
+        "end_line": 523
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 14,
+      "lean_name": "FastcryptoMerkle.fastcrypto.merkle.MerkleTree.build_from_leaf_hashes_loop0_loop0",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "fastcrypto::merkle::{fastcrypto::merkle::MerkleTree<T>}::build_from_leaf_hashes",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "begin_line": 404,
+        "end_line": 408
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": true,
+      "reducible": false,
+      "loop": { "id": 1, "pos": [ 0, 0 ], "is_body": false },
+      "parent_lean_name": "FastcryptoMerkle.fastcrypto.merkle.MerkleTree.build_from_leaf_hashes"
+    },
+    {
+      "def_id": 14,
+      "lean_name": "FastcryptoMerkle.fastcrypto.merkle.MerkleTree.build_from_leaf_hashes_loop0",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "fastcrypto::merkle::{fastcrypto::merkle::MerkleTree<T>}::build_from_leaf_hashes",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "begin_line": 394,
+        "end_line": 412
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": true,
+      "reducible": false,
+      "loop": { "id": 0, "pos": [ 0 ], "is_body": false },
+      "parent_lean_name": "FastcryptoMerkle.fastcrypto.merkle.MerkleTree.build_from_leaf_hashes"
+    },
+    {
+      "def_id": 14,
+      "lean_name": "FastcryptoMerkle.fastcrypto.merkle.MerkleTree.build_from_leaf_hashes",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "fastcrypto::merkle::{fastcrypto::merkle::MerkleTree<T>}::build_from_leaf_hashes",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "begin_line": 385,
+        "end_line": 385
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 2,
+      "lean_name": "FastcryptoMerkle.fastcrypto.merkle.MerkleTree.build_from_serialized_slice_loop",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "fastcrypto::merkle::{fastcrypto::merkle::MerkleTree<T>}::build_from_serialized_slice",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "begin_line": 356,
+        "end_line": 359
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": true,
+      "reducible": false,
+      "loop": { "id": 0, "pos": [ 0 ], "is_body": false },
+      "parent_lean_name": "FastcryptoMerkle.fastcrypto.merkle.MerkleTree.build_from_serialized_slice"
+    },
+    {
+      "def_id": 2,
+      "lean_name": "FastcryptoMerkle.fastcrypto.merkle.MerkleTree.build_from_serialized_slice",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "fastcrypto::merkle::{fastcrypto::merkle::MerkleTree<T>}::build_from_serialized_slice",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "begin_line": 350,
+        "end_line": 352
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 3,
+      "lean_name": "FastcryptoMerkle.fastcrypto.merkle.MerkleTree.root",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "fastcrypto::merkle::{fastcrypto::merkle::MerkleTree<T>}::root",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "begin_line": 427,
+        "end_line": 427
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 5,
+      "lean_name": "FastcryptoMerkle.fastcrypto.merkle.MerkleTree.get_proof_loop",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "fastcrypto::merkle::{fastcrypto::merkle::MerkleTree<T>}::get_proof",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "begin_line": 447,
+        "end_line": 460
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": true,
+      "reducible": false,
+      "loop": { "id": 0, "pos": [ 0 ], "is_body": false },
+      "parent_lean_name": "FastcryptoMerkle.fastcrypto.merkle.MerkleTree.get_proof"
+    },
+    {
+      "def_id": 5,
+      "lean_name": "FastcryptoMerkle.fastcrypto.merkle.MerkleTree.get_proof",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "fastcrypto::merkle::{fastcrypto::merkle::MerkleTree<T>}::get_proof",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "begin_line": 436,
+        "end_line": 436
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 0,
+      "lean_name": "FastcryptoMerkle.build_root",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "aeneas_merkle::build_root",
+      "is_local": true,
+      "source": { "file": "src/lib.rs", "begin_line": 13, "end_line": 15 },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 1,
+      "lean_name": "FastcryptoMerkle.inclusion_roundtrip",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "aeneas_merkle::inclusion_roundtrip",
+      "is_local": true,
+      "source": { "file": "src/lib.rs", "begin_line": 22, "end_line": 33 },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": false,
+      "reducible": false
+    }
+  ],
+  "types": [
+    {
+      "def_id": 9,
+      "lean_name": "FastcryptoMerkle.core.marker.PhantomData",
+      "lean_file": "/FastcryptoMerkle/Code/Types.lean",
+      "rust_name": "core::marker::PhantomData",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/core/src/marker.rs",
+        "begin_line": 811,
+        "end_line": 811
+      }
+    },
+    {
+      "def_id": 7,
+      "lean_name": "FastcryptoMerkle.fastcrypto.error.FastCryptoError",
+      "lean_file": "/FastcryptoMerkle/Code/Types.lean",
+      "rust_name": "fastcrypto::error::FastCryptoError",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/error.rs",
+        "begin_line": 18,
+        "end_line": 18
+      }
+    },
+    {
+      "def_id": 8,
+      "lean_name": "FastcryptoMerkle.fastcrypto.hash.Digest",
+      "lean_file": "/FastcryptoMerkle/Code/Types.lean",
+      "rust_name": "fastcrypto::hash::Digest",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/hash.rs",
+        "begin_line": 33,
+        "end_line": 33
+      }
+    },
+    {
+      "def_id": 2,
+      "lean_name": "FastcryptoMerkle.fastcrypto.merkle.Node",
+      "lean_file": "/FastcryptoMerkle/Code/Types.lean",
+      "rust_name": "fastcrypto::merkle::Node",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "begin_line": 24,
+        "end_line": 24
+      }
+    },
+    {
+      "def_id": 5,
+      "lean_name": "FastcryptoMerkle.fastcrypto.merkle.MerkleProof",
+      "lean_file": "/FastcryptoMerkle/Code/Types.lean",
+      "rust_name": "fastcrypto::merkle::MerkleProof",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "begin_line": 64,
+        "end_line": 64
+      }
+    },
+    {
+      "def_id": 3,
+      "lean_name": "FastcryptoMerkle.fastcrypto.merkle.MerkleTree",
+      "lean_file": "/FastcryptoMerkle/Code/Types.lean",
+      "rust_name": "fastcrypto::merkle::MerkleTree",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "begin_line": 315,
+        "end_line": 315
+      }
+    }
+  ],
+  "globals": [
+    {
+      "def_id": 0,
+      "lean_name": "fastcrypto.hash.HashFunction.OUTPUT_SIZE.default",
+      "lean_file": "/FastcryptoMerkle/Code/FunsExternal_Template.lean",
+      "rust_name": "fastcrypto::hash::HashFunction::OUTPUT_SIZE",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/hash.rs",
+        "begin_line": 82,
+        "end_line": 82
+      },
+      "can_fail": true
+    },
+    {
+      "def_id": 4,
+      "lean_name": "FastcryptoMerkle.fastcrypto.merkle.LEAF_PREFIX",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "fastcrypto::merkle::LEAF_PREFIX",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "begin_line": 18,
+        "end_line": 18
+      },
+      "can_fail": false
+    },
+    {
+      "def_id": 9,
+      "lean_name": "FastcryptoMerkle.fastcrypto.merkle.INNER_PREFIX",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "fastcrypto::merkle::INNER_PREFIX",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "begin_line": 19,
+        "end_line": 19
+      },
+      "can_fail": false
+    },
+    {
+      "def_id": 18,
+      "lean_name": "FastcryptoMerkle.fastcrypto.merkle.EMPTY_NODE",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "fastcrypto::merkle::EMPTY_NODE",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "begin_line": 20,
+        "end_line": 20
+      },
+      "can_fail": false
+    }
+  ],
+  "trait_decls": [
+    {
+      "def_id": 0,
+      "lean_name": "FastcryptoMerkle.fastcrypto.hash.HashFunction",
+      "lean_file": "/FastcryptoMerkle/Code/Types.lean",
+      "rust_name": "fastcrypto::hash::HashFunction",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/hash.rs",
+        "begin_line": 80,
+        "end_line": 80
+      }
+    }
+  ],
+  "trait_impls": [
+    {
+      "def_id": 23,
+      "lean_name": "FastcryptoMerkle.Array.Insts.CoreCmpPartialEqArray",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "core::array::equality::{impl core::cmp::PartialEq<[U; N]> for [T; N]}",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/core/src/array/equality.rs",
+        "begin_line": 5,
+        "end_line": 7
+      },
+      "impl_trait_def_id": 24,
+      "impl_trait_rust_name": "core::cmp::PartialEq",
+      "impl_trait_is_builtin": true
+    },
+    {
+      "def_id": 14,
+      "lean_name": "FastcryptoMerkle.Shared0T.Insts.CoreConvertAsRef",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "core::convert::{impl core::convert::AsRef<U> for &'_0 T}",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/core/src/convert/mod.rs",
+        "begin_line": 715,
+        "end_line": 717
+      },
+      "impl_trait_def_id": 1,
+      "impl_trait_rust_name": "core::convert::AsRef",
+      "impl_trait_is_builtin": true
+    },
+    {
+      "def_id": 15,
+      "lean_name": "FastcryptoMerkle.Slice.Insts.CoreConvertAsRefSlice",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "core::convert::{impl core::convert::AsRef<[T]> for [T]}",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/core/src/convert/mod.rs",
+        "begin_line": 848,
+        "end_line": 848
+      },
+      "impl_trait_def_id": 1,
+      "impl_trait_rust_name": "core::convert::AsRef",
+      "impl_trait_is_builtin": true
+    },
+    {
+      "def_id": 10,
+      "lean_name": "FastcryptoMerkle.Usize.Insts.CoreFmtDisplay",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "core::fmt::num::imp::{impl core::fmt::Display for usize}",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/core/src/fmt/num.rs",
+        "begin_line": 134,
+        "end_line": 134
+      },
+      "impl_trait_def_id": 6,
+      "impl_trait_rust_name": "core::fmt::Display",
+      "impl_trait_is_builtin": true
+    },
+    {
+      "def_id": 0,
+      "lean_name": "FastcryptoMerkle.alloc.vec.Vec.Insts.CoreConvertAsRefSlice",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "alloc::vec::{impl core::convert::AsRef<[T]> for alloc::vec::Vec<T>}",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/alloc/src/vec/mod.rs",
+        "begin_line": 4400,
+        "end_line": 4400
+      },
+      "impl_trait_def_id": 1,
+      "impl_trait_rust_name": "core::convert::AsRef",
+      "impl_trait_is_builtin": true
+    },
+    {
+      "def_id": 17,
+      "lean_name": "FastcryptoMerkle.fastcrypto.merkle.Node.Insts.CoreConvertFromDigest32",
+      "lean_file": "/FastcryptoMerkle/Code/Funs.lean",
+      "rust_name": "fastcrypto::merkle::{impl core::convert::From<fastcrypto::hash::Digest<32usize>> for fastcrypto::merkle::Node}",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/merkle.rs",
+        "begin_line": 41,
+        "end_line": 41
+      },
+      "impl_trait_def_id": 26,
+      "impl_trait_rust_name": "core::convert::From",
+      "impl_trait_is_builtin": true
+    }
+  ]
+}

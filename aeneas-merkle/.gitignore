@@ -1,0 +1,4 @@
+/target/
+/generated/*.llbc
+/proofs/.lake/
+/proofs/lake-manifest.json

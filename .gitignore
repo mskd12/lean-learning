@@ -3,8 +3,6 @@
 /.codex/
 /.agents/
 /tools/
-/aeneas-merkle/
-
 **/.lake/
 **/target/
 **/.opam-root/
