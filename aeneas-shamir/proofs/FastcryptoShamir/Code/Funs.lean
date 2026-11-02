@@ -599,20 +599,20 @@ def fastcrypto_tbls.polynomial.PolyRistrettoScalar.c0RistrettoScalar
     alloc.vec.VecRistrettoScalar.Insts.CoreOpsIndexIndexUsize.index self
       0#usize
 
-/-- [aeneas_shamir::generic::eval::<fastcrypto::groups::ristretto255::RistrettoScalar>]:
-    Source: 'src/lib.rs', lines 24:4-26:5
+/-- [aeneas_shamir::eval]:
+    Source: 'src/lib.rs', lines 21:0-23:1
     Visibility: public -/
-def generic.evalRistrettoScalar
+def eval
   (p : fastcrypto_tbls.polynomial.PolyRistrettoScalar)
   (i : core.num.nonzero.NonZeroU16) :
   Result fastcrypto_tbls.types.IndexedValueRistrettoScalar
   := do
   fastcrypto_tbls.polynomial.PolyRistrettoScalar.evalRistrettoScalar p i
 
-/-- [aeneas_shamir::generic::add::<fastcrypto::groups::ristretto255::RistrettoScalar>]:
-    Source: 'src/lib.rs', lines 29:4-32:5
+/-- [aeneas_shamir::add]:
+    Source: 'src/lib.rs', lines 26:0-29:1
     Visibility: public -/
-def generic.addRistrettoScalar
+def add
   (p : fastcrypto_tbls.polynomial.PolyRistrettoScalar)
   (q : fastcrypto_tbls.polynomial.PolyRistrettoScalar) :
   Result fastcrypto_tbls.polynomial.PolyRistrettoScalar
@@ -620,77 +620,31 @@ def generic.addRistrettoScalar
   fastcrypto_tbls.polynomial.PolyRistrettoScalar.add_in_placeRistrettoScalar p
     q
 
-/-- [aeneas_shamir::generic::c0::<fastcrypto::groups::ristretto255::RistrettoScalar>]:
-    Source: 'src/lib.rs', lines 35:4-37:5
+/-- [aeneas_shamir::c0]:
+    Source: 'src/lib.rs', lines 32:0-34:1
     Visibility: public -/
-def generic.c0RistrettoScalar
+def c0
   (p : fastcrypto_tbls.polynomial.PolyRistrettoScalar) :
   Result fastcrypto.groups.ristretto255.RistrettoScalar
   := do
   fastcrypto_tbls.polynomial.PolyRistrettoScalar.c0RistrettoScalar p
 
-/-- [aeneas_shamir::generic::degree_bound::<fastcrypto::groups::ristretto255::RistrettoScalar>]:
-    Source: 'src/lib.rs', lines 40:4-42:5
+/-- [aeneas_shamir::degree_bound]:
+    Source: 'src/lib.rs', lines 37:0-39:1
     Visibility: public -/
-def generic.degree_boundRistrettoScalar
+def degree_bound
   (p : fastcrypto_tbls.polynomial.PolyRistrettoScalar) : Result Std.Usize := do
   fastcrypto_tbls.polynomial.PolyRistrettoScalar.degree_boundRistrettoScalar p
 
-/-- [aeneas_shamir::generic::recover_c0::<fastcrypto::groups::ristretto255::RistrettoScalar>]:
-    Source: 'src/lib.rs', lines 45:4-47:5
+/-- [aeneas_shamir::recover_c0]:
+    Source: 'src/lib.rs', lines 42:0-44:1
     Visibility: public -/
-def generic.recover_c0RistrettoScalar
+def recover_c0
   (t : Std.U16)
   (shares : Slice fastcrypto_tbls.types.IndexedValueRistrettoScalar) :
   Result core.result.ResultRistrettoScalarFastCryptoError
   := do
   fastcrypto_tbls.polynomial.PolyRistrettoScalar.recover_c0_from_sliceRistrettoScalar
     t shares
-
-/-- [aeneas_shamir::ristretto::eval]:
-    Source: 'src/lib.rs', lines 56:4-58:5
-    Visibility: public -/
-def ristretto.eval
-  (p : fastcrypto_tbls.polynomial.PolyRistrettoScalar)
-  (i : core.num.nonzero.NonZeroU16) :
-  Result fastcrypto_tbls.types.IndexedValueRistrettoScalar
-  := do
-  generic.evalRistrettoScalar p i
-
-/-- [aeneas_shamir::ristretto::add]:
-    Source: 'src/lib.rs', lines 61:4-63:5
-    Visibility: public -/
-def ristretto.add
-  (p : fastcrypto_tbls.polynomial.PolyRistrettoScalar)
-  (q : fastcrypto_tbls.polynomial.PolyRistrettoScalar) :
-  Result fastcrypto_tbls.polynomial.PolyRistrettoScalar
-  := do
-  generic.addRistrettoScalar p q
-
-/-- [aeneas_shamir::ristretto::c0]:
-    Source: 'src/lib.rs', lines 66:4-68:5
-    Visibility: public -/
-def ristretto.c0
-  (p : fastcrypto_tbls.polynomial.PolyRistrettoScalar) :
-  Result fastcrypto.groups.ristretto255.RistrettoScalar
-  := do
-  generic.c0RistrettoScalar p
-
-/-- [aeneas_shamir::ristretto::degree_bound]:
-    Source: 'src/lib.rs', lines 71:4-73:5
-    Visibility: public -/
-def ristretto.degree_bound
-  (p : fastcrypto_tbls.polynomial.PolyRistrettoScalar) : Result Std.Usize := do
-  generic.degree_boundRistrettoScalar p
-
-/-- [aeneas_shamir::ristretto::recover_c0]:
-    Source: 'src/lib.rs', lines 76:4-81:5
-    Visibility: public -/
-def ristretto.recover_c0
-  (t : Std.U16)
-  (shares : Slice fastcrypto_tbls.types.IndexedValueRistrettoScalar) :
-  Result core.result.ResultRistrettoScalarFastCryptoError
-  := do
-  generic.recover_c0RistrettoScalar t shares
 
 end FastcryptoShamir
