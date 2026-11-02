@@ -1,0 +1,1113 @@
+{
+  "aeneas_version": "74a460a2",
+  "charon_version": "0.1.240",
+  "crate": "aeneas_shamir",
+  "functions": [
+    {
+      "def_id": 36,
+      "lean_name": "core.num.nonzero.NonZeroU16.getU16",
+      "lean_file": "/FastcryptoShamir/Code/FunsExternal_Template.lean",
+      "rust_name": "core::num::nonzero::{core::num::nonzero::NonZero::<u16>}::get::<u16>",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/core/src/num/nonzero.rs",
+        "begin_line": 467,
+        "end_line": 467
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 51,
+      "lean_name": "core.result.ResultRistrettoScalarFastCryptoError.expectRistrettoScalarFastCryptoError",
+      "lean_file": "/FastcryptoShamir/Code/FunsExternal_Template.lean",
+      "rust_name": "core::result::{core::result::Result::<fastcrypto::groups::ristretto255::RistrettoScalar, fastcrypto::error::FastCryptoError>}::expect::<fastcrypto::groups::ristretto255::RistrettoScalar, fastcrypto::error::FastCryptoError>",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/core/src/result.rs",
+        "begin_line": 1178,
+        "end_line": 1180
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 34,
+      "lean_name": "core.slice.SliceIndexedValueRistrettoScalar.lenIndexedValueRistrettoScalar",
+      "lean_file": "/FastcryptoShamir/Code/FunsExternal_Template.lean",
+      "rust_name": "core::slice::{[fastcrypto_tbls::types::IndexedValue::<fastcrypto::groups::ristretto255::RistrettoScalar>]}::len::<fastcrypto_tbls::types::IndexedValue::<fastcrypto::groups::ristretto255::RistrettoScalar>>",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/core/src/slice/mod.rs",
+        "begin_line": 116,
+        "end_line": 116
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 39,
+      "lean_name": "core.slice.SliceU128.lenU128",
+      "lean_file": "/FastcryptoShamir/Code/FunsExternal_Template.lean",
+      "rust_name": "core::slice::{[u128]}::len::<u128>",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/core/src/slice/mod.rs",
+        "begin_line": 116,
+        "end_line": 116
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 48,
+      "lean_name": "alloc.vec.VecRistrettoScalar.with_capacityRistrettoScalar",
+      "lean_file": "/FastcryptoShamir/Code/FunsExternal_Template.lean",
+      "rust_name": "alloc::vec::{alloc::vec::Vec::<fastcrypto::groups::ristretto255::RistrettoScalar, alloc::alloc::Global>}::with_capacity::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/alloc/src/vec/mod.rs",
+        "begin_line": 521,
+        "end_line": 521
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 35,
+      "lean_name": "alloc.vec.VecU128.with_capacityU128",
+      "lean_file": "/FastcryptoShamir/Code/FunsExternal_Template.lean",
+      "rust_name": "alloc::vec::{alloc::vec::Vec::<u128, alloc::alloc::Global>}::with_capacity::<u128>",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/alloc/src/vec/mod.rs",
+        "begin_line": 521,
+        "end_line": 521
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 52,
+      "lean_name": "alloc.vec.VecRistrettoScalar.pushRistrettoScalarGlobal",
+      "lean_file": "/FastcryptoShamir/Code/FunsExternal_Template.lean",
+      "rust_name": "alloc::vec::{alloc::vec::Vec::<fastcrypto::groups::ristretto255::RistrettoScalar, alloc::alloc::Global>}::push::<fastcrypto::groups::ristretto255::RistrettoScalar, alloc::alloc::Global>",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/alloc/src/vec/mod.rs",
+        "begin_line": 995,
+        "end_line": 995
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 37,
+      "lean_name": "alloc.vec.VecU128.pushU128Global",
+      "lean_file": "/FastcryptoShamir/Code/FunsExternal_Template.lean",
+      "rust_name": "alloc::vec::{alloc::vec::Vec::<u128, alloc::alloc::Global>}::push::<u128, alloc::alloc::Global>",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/alloc/src/vec/mod.rs",
+        "begin_line": 995,
+        "end_line": 995
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 18,
+      "lean_name": "alloc.vec.VecRistrettoScalar.lenRistrettoScalarGlobal",
+      "lean_file": "/FastcryptoShamir/Code/FunsExternal_Template.lean",
+      "rust_name": "alloc::vec::{alloc::vec::Vec::<fastcrypto::groups::ristretto255::RistrettoScalar, alloc::alloc::Global>}::len::<fastcrypto::groups::ristretto255::RistrettoScalar, alloc::alloc::Global>",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/alloc/src/vec/mod.rs",
+        "begin_line": 3100,
+        "end_line": 3100
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 26,
+      "lean_name": "alloc.vec.VecRistrettoScalar.is_emptyRistrettoScalarGlobal",
+      "lean_file": "/FastcryptoShamir/Code/FunsExternal_Template.lean",
+      "rust_name": "alloc::vec::{alloc::vec::Vec::<fastcrypto::groups::ristretto255::RistrettoScalar, alloc::alloc::Global>}::is_empty::<fastcrypto::groups::ristretto255::RistrettoScalar, alloc::alloc::Global>",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/alloc/src/vec/mod.rs",
+        "begin_line": 3125,
+        "end_line": 3125
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 25,
+      "lean_name": "alloc.vec.VecRistrettoScalar.extend_from_sliceRistrettoScalarGlobal",
+      "lean_file": "/FastcryptoShamir/Code/FunsExternal_Template.lean",
+      "rust_name": "alloc::vec::{alloc::vec::Vec::<fastcrypto::groups::ristretto255::RistrettoScalar, alloc::alloc::Global>}::extend_from_slice::<fastcrypto::groups::ristretto255::RistrettoScalar, alloc::alloc::Global>",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/alloc/src/vec/mod.rs",
+        "begin_line": 3605,
+        "end_line": 3605
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 31,
+      "lean_name": "alloc.vec.VecRistrettoScalar.Insts.CoreOpsDerefDeref.deref",
+      "lean_file": "/FastcryptoShamir/Code/FunsExternal_Template.lean",
+      "rust_name": "alloc::vec::{impl core::ops::deref::Deref for alloc::vec::Vec::<fastcrypto::groups::ristretto255::RistrettoScalar, alloc::alloc::Global>}::deref::<fastcrypto::groups::ristretto255::RistrettoScalar, alloc::alloc::Global>",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/alloc/src/vec/mod.rs",
+        "begin_line": 3854,
+        "end_line": 3854
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 29,
+      "lean_name": "alloc.vec.VecU128.Insts.CoreOpsDerefDeref.deref",
+      "lean_file": "/FastcryptoShamir/Code/FunsExternal_Template.lean",
+      "rust_name": "alloc::vec::{impl core::ops::deref::Deref for alloc::vec::Vec::<u128, alloc::alloc::Global>}::deref::<u128, alloc::alloc::Global>",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/alloc/src/vec/mod.rs",
+        "begin_line": 3854,
+        "end_line": 3854
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 24,
+      "lean_name": "alloc.vec.VecRistrettoScalar.Insts.CoreOpsIndexIndexRangeFromUsize.index",
+      "lean_file": "/FastcryptoShamir/Code/FunsExternal_Template.lean",
+      "rust_name": "alloc::vec::{impl core::ops::index::Index<core::ops::range::RangeFrom::<usize>> for alloc::vec::Vec::<fastcrypto::groups::ristretto255::RistrettoScalar, alloc::alloc::Global>}::index::<fastcrypto::groups::ristretto255::RistrettoScalar, core::ops::range::RangeFrom::<usize>, alloc::alloc::Global>",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/alloc/src/vec/mod.rs",
+        "begin_line": 3936,
+        "end_line": 3936
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 20,
+      "lean_name": "alloc.vec.VecRistrettoScalar.Insts.CoreOpsIndexIndexUsize.index",
+      "lean_file": "/FastcryptoShamir/Code/FunsExternal_Template.lean",
+      "rust_name": "alloc::vec::{impl core::ops::index::Index<usize> for alloc::vec::Vec::<fastcrypto::groups::ristretto255::RistrettoScalar, alloc::alloc::Global>}::index::<fastcrypto::groups::ristretto255::RistrettoScalar, usize, alloc::alloc::Global>",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/alloc/src/vec/mod.rs",
+        "begin_line": 3936,
+        "end_line": 3936
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 22,
+      "lean_name": "alloc.vec.VecRistrettoScalar.Insts.CoreOpsIndexIndexMutUsize.index_mut",
+      "lean_file": "/FastcryptoShamir/Code/FunsExternal_Template.lean",
+      "rust_name": "alloc::vec::{impl core::ops::index::IndexMut<usize> for alloc::vec::Vec::<fastcrypto::groups::ristretto255::RistrettoScalar, alloc::alloc::Global>}::index_mut::<fastcrypto::groups::ristretto255::RistrettoScalar, usize, alloc::alloc::Global>",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/alloc/src/vec/mod.rs",
+        "begin_line": 3945,
+        "end_line": 3945
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 23,
+      "lean_name": "fastcrypto.groups.ristretto255.RistrettoScalar.Insts.CoreOpsArithAddAssignRistrettoScalar.add_assign",
+      "lean_file": "/FastcryptoShamir/Code/FunsExternal_Template.lean",
+      "rust_name": "fastcrypto::groups::ristretto255::{impl core::ops::arith::AddAssign<fastcrypto::groups::ristretto255::RistrettoScalar> for fastcrypto::groups::ristretto255::RistrettoScalar}::add_assign",
+      "is_local": false,
+      "source": {
+        "file": "/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/auto_ops-0.3.0/src/assignment.rs",
+        "begin_line": 29,
+        "end_line": 29
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 41,
+      "lean_name": "fastcrypto.groups.ristretto255.RistrettoScalar.Insts.CoreConvertFromU128.from",
+      "lean_file": "/FastcryptoShamir/Code/FunsExternal_Template.lean",
+      "rust_name": "fastcrypto::groups::ristretto255::{impl core::convert::From<u128> for fastcrypto::groups::ristretto255::RistrettoScalar}::from::<u128>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/groups/ristretto255.rs",
+        "begin_line": 268,
+        "end_line": 268
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 21,
+      "lean_name": "fastcrypto.groups.ristretto255.RistrettoScalar.Insts.CoreOpsArithAddRistrettoScalar.add",
+      "lean_file": "/FastcryptoShamir/Code/FunsExternal_Template.lean",
+      "rust_name": "fastcrypto::groups::ristretto255::{impl core::ops::arith::Add<fastcrypto::groups::ristretto255::RistrettoScalar> for fastcrypto::groups::ristretto255::RistrettoScalar}::add",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/groups/ristretto255.rs",
+        "begin_line": 268,
+        "end_line": 268
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 47,
+      "lean_name": "fastcrypto.groups.ristretto255.RistrettoScalar.Insts.CoreOpsArithSubRistrettoScalar.sub",
+      "lean_file": "/FastcryptoShamir/Code/FunsExternal_Template.lean",
+      "rust_name": "fastcrypto::groups::ristretto255::{impl core::ops::arith::Sub<fastcrypto::groups::ristretto255::RistrettoScalar> for fastcrypto::groups::ristretto255::RistrettoScalar}::sub",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/groups/ristretto255.rs",
+        "begin_line": 268,
+        "end_line": 268
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 19,
+      "lean_name": "fastcrypto.groups.ristretto255.RistrettoScalar.Insts.CoreOpsArithMulRistrettoScalar.mul",
+      "lean_file": "/FastcryptoShamir/Code/FunsExternal_Template.lean",
+      "rust_name": "fastcrypto::groups::ristretto255::{impl core::ops::arith::Mul<fastcrypto::groups::ristretto255::RistrettoScalar> for fastcrypto::groups::ristretto255::RistrettoScalar}::mul",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/groups/ristretto255.rs",
+        "begin_line": 268,
+        "end_line": 268
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 53,
+      "lean_name": "fastcrypto.groups.ristretto255.RistrettoScalar.Insts.CoreOpsArithNeg.neg",
+      "lean_file": "/FastcryptoShamir/Code/FunsExternal_Template.lean",
+      "rust_name": "fastcrypto::groups::ristretto255::{impl core::ops::arith::Neg for fastcrypto::groups::ristretto255::RistrettoScalar}::neg",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/groups/ristretto255.rs",
+        "begin_line": 268,
+        "end_line": 268
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 17,
+      "lean_name": "fastcrypto.groups.ristretto255.RistrettoScalar.Insts.FastcryptoGroupsGroupElement.zero",
+      "lean_file": "/FastcryptoShamir/Code/FunsExternal_Template.lean",
+      "rust_name": "fastcrypto::groups::ristretto255::{impl fastcrypto::groups::GroupElement for fastcrypto::groups::ristretto255::RistrettoScalar}::zero",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/groups/ristretto255.rs",
+        "begin_line": 297,
+        "end_line": 297
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 46,
+      "lean_name": "fastcrypto.groups.ristretto255.RistrettoScalar.Insts.FastcryptoGroupsGroupElement.generator",
+      "lean_file": "/FastcryptoShamir/Code/FunsExternal_Template.lean",
+      "rust_name": "fastcrypto::groups::ristretto255::{impl fastcrypto::groups::GroupElement for fastcrypto::groups::ristretto255::RistrettoScalar}::generator",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/groups/ristretto255.rs",
+        "begin_line": 300,
+        "end_line": 300
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 50,
+      "lean_name": "fastcrypto.groups.ristretto255.RistrettoScalar.Insts.FastcryptoGroupsScalar.inverse",
+      "lean_file": "/FastcryptoShamir/Code/FunsExternal_Template.lean",
+      "rust_name": "fastcrypto::groups::ristretto255::{impl fastcrypto::groups::Scalar for fastcrypto::groups::ristretto255::RistrettoScalar}::inverse",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/groups/ristretto255.rs",
+        "begin_line": 310,
+        "end_line": 310
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 16,
+      "lean_name": "fastcrypto_tbls.types.to_scalarRistrettoScalarNonZeroU16",
+      "lean_file": "/FastcryptoShamir/Code/FunsExternal_Template.lean",
+      "rust_name": "fastcrypto_tbls::types::to_scalar::<fastcrypto::groups::ristretto255::RistrettoScalar, core::num::nonzero::NonZero::<u16>>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/types.rs",
+        "begin_line": 55,
+        "end_line": 55
+      },
+      "is_opaque": true,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 14,
+      "lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.degree_boundRistrettoScalar",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::polynomial::{fastcrypto_tbls::polynomial::Poly::<fastcrypto::groups::ristretto255::RistrettoScalar>}::degree_bound::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/polynomial.rs",
+        "begin_line": 38,
+        "end_line": 38
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 11,
+      "lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.add_in_placeRistrettoScalar_loop",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::polynomial::{fastcrypto_tbls::polynomial::Poly::<fastcrypto::groups::ristretto255::RistrettoScalar>}::add_in_place::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/polynomial.rs",
+        "begin_line": 80,
+        "end_line": 83
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": true,
+      "reducible": false,
+      "loop": { "id": 0, "pos": [ 0 ], "is_body": false },
+      "parent_lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.add_in_placeRistrettoScalar"
+    },
+    {
+      "def_id": 11,
+      "lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.add_in_placeRistrettoScalar",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::polynomial::{fastcrypto_tbls::polynomial::Poly::<fastcrypto::groups::ristretto255::RistrettoScalar>}::add_in_place::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/polynomial.rs",
+        "begin_line": 76,
+        "end_line": 76
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 10,
+      "lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.evalRistrettoScalar_loop",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::polynomial::{fastcrypto_tbls::polynomial::Poly::<fastcrypto::groups::ristretto255::RistrettoScalar>}::eval::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/polynomial.rs",
+        "begin_line": 162,
+        "end_line": 165
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": true,
+      "reducible": false,
+      "loop": { "id": 0, "pos": [ 0 ], "is_body": false },
+      "parent_lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.evalRistrettoScalar"
+    },
+    {
+      "def_id": 10,
+      "lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.evalRistrettoScalar",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::polynomial::{fastcrypto_tbls::polynomial::Poly::<fastcrypto::groups::ristretto255::RistrettoScalar>}::eval::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/polynomial.rs",
+        "begin_line": 156,
+        "end_line": 156
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 54,
+      "lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.fast_multRistrettoScalar",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::polynomial::{fastcrypto_tbls::polynomial::Poly::<fastcrypto::groups::ristretto255::RistrettoScalar>}::fast_mult::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/polynomial.rs",
+        "begin_line": 204,
+        "end_line": 204
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 45,
+      "lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.contains_fromRistrettoScalar_loop",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::polynomial::{fastcrypto_tbls::polynomial::Poly::<fastcrypto::groups::ristretto255::RistrettoScalar>}::contains_from::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/polynomial.rs",
+        "begin_line": 297,
+        "end_line": 300
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": true,
+      "reducible": false,
+      "loop": { "id": 0, "pos": [ 0 ], "is_body": false },
+      "parent_lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.contains_fromRistrettoScalar"
+    },
+    {
+      "def_id": 45,
+      "lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.contains_fromRistrettoScalar",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::polynomial::{fastcrypto_tbls::polynomial::Poly::<fastcrypto::groups::ristretto255::RistrettoScalar>}::contains_from::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/polynomial.rs",
+        "begin_line": 294,
+        "end_line": 294
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": false,
+      "reducible": true
+    },
+    {
+      "def_id": 40,
+      "lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.indices_are_validRistrettoScalar_loop",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::polynomial::{fastcrypto_tbls::polynomial::Poly::<fastcrypto::groups::ristretto255::RistrettoScalar>}::indices_are_valid::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/polynomial.rs",
+        "begin_line": 286,
+        "end_line": 289
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": true,
+      "reducible": false,
+      "loop": { "id": 0, "pos": [ 0 ], "is_body": false },
+      "parent_lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.indices_are_validRistrettoScalar"
+    },
+    {
+      "def_id": 40,
+      "lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.indices_are_validRistrettoScalar",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::polynomial::{fastcrypto_tbls::polynomial::Poly::<fastcrypto::groups::ristretto255::RistrettoScalar>}::indices_are_valid::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/polynomial.rs",
+        "begin_line": 283,
+        "end_line": 283
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": false,
+      "reducible": true
+    },
+    {
+      "def_id": 49,
+      "lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.lagrange_denominatorRistrettoScalar_loop",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::polynomial::{fastcrypto_tbls::polynomial::Poly::<fastcrypto::groups::ristretto255::RistrettoScalar>}::lagrange_denominator::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/polynomial.rs",
+        "begin_line": 315,
+        "end_line": 330
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": true,
+      "reducible": false,
+      "loop": { "id": 0, "pos": [ 0 ], "is_body": false },
+      "parent_lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.lagrange_denominatorRistrettoScalar"
+    },
+    {
+      "def_id": 49,
+      "lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.lagrange_denominatorRistrettoScalar",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::polynomial::{fastcrypto_tbls::polynomial::Poly::<fastcrypto::groups::ristretto255::RistrettoScalar>}::lagrange_denominator::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/polynomial.rs",
+        "begin_line": 305,
+        "end_line": 309
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 43,
+      "lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.lagrange_inverse_denominatorsRistrettoScalar_loop",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::polynomial::{fastcrypto_tbls::polynomial::Poly::<fastcrypto::groups::ristretto255::RistrettoScalar>}::lagrange_inverse_denominators::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/polynomial.rs",
+        "begin_line": 273,
+        "end_line": 278
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": true,
+      "reducible": false,
+      "loop": { "id": 0, "pos": [ 0 ], "is_body": false },
+      "parent_lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.lagrange_inverse_denominatorsRistrettoScalar"
+    },
+    {
+      "def_id": 43,
+      "lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.lagrange_inverse_denominatorsRistrettoScalar",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::polynomial::{fastcrypto_tbls::polynomial::Poly::<fastcrypto::groups::ristretto255::RistrettoScalar>}::lagrange_inverse_denominators::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/polynomial.rs",
+        "begin_line": 267,
+        "end_line": 270
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 42,
+      "lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.lagrange_numeratorRistrettoScalar_loop",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::polynomial::{fastcrypto_tbls::polynomial::Poly::<fastcrypto::groups::ristretto255::RistrettoScalar>}::lagrange_numerator::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/polynomial.rs",
+        "begin_line": 259,
+        "end_line": 262
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": true,
+      "reducible": false,
+      "loop": { "id": 0, "pos": [ 0 ], "is_body": false },
+      "parent_lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.lagrange_numeratorRistrettoScalar"
+    },
+    {
+      "def_id": 42,
+      "lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.lagrange_numeratorRistrettoScalar",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::polynomial::{fastcrypto_tbls::polynomial::Poly::<fastcrypto::groups::ristretto255::RistrettoScalar>}::lagrange_numerator::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/polynomial.rs",
+        "begin_line": 256,
+        "end_line": 256
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 30,
+      "lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.lagrange_coefficients_from_sliceRistrettoScalar",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::polynomial::{fastcrypto_tbls::polynomial::Poly::<fastcrypto::groups::ristretto255::RistrettoScalar>}::lagrange_coefficients_from_slice::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/polynomial.rs",
+        "begin_line": 241,
+        "end_line": 245
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 32,
+      "lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.weighted_sumRistrettoScalar_loop",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::polynomial::{fastcrypto_tbls::polynomial::Poly::<fastcrypto::groups::ristretto255::RistrettoScalar>}::weighted_sum::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/polynomial.rs",
+        "begin_line": 381,
+        "end_line": 385
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": true,
+      "reducible": false,
+      "loop": { "id": 0, "pos": [ 0 ], "is_body": false },
+      "parent_lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.weighted_sumRistrettoScalar"
+    },
+    {
+      "def_id": 32,
+      "lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.weighted_sumRistrettoScalar",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::polynomial::{fastcrypto_tbls::polynomial::Poly::<fastcrypto::groups::ristretto255::RistrettoScalar>}::weighted_sum::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/polynomial.rs",
+        "begin_line": 378,
+        "end_line": 378
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 28,
+      "lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.share_indicesRistrettoScalar_loop",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::polynomial::{fastcrypto_tbls::polynomial::Poly::<fastcrypto::groups::ristretto255::RistrettoScalar>}::share_indices::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/polynomial.rs",
+        "begin_line": 369,
+        "end_line": 373
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": true,
+      "reducible": false,
+      "loop": { "id": 0, "pos": [ 0 ], "is_body": false },
+      "parent_lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.share_indicesRistrettoScalar"
+    },
+    {
+      "def_id": 28,
+      "lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.share_indicesRistrettoScalar",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::polynomial::{fastcrypto_tbls::polynomial::Poly::<fastcrypto::groups::ristretto255::RistrettoScalar>}::share_indices::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/polynomial.rs",
+        "begin_line": 366,
+        "end_line": 366
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 15,
+      "lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.recover_c0_from_sliceRistrettoScalar",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::polynomial::{fastcrypto_tbls::polynomial::Poly::<fastcrypto::groups::ristretto255::RistrettoScalar>}::recover_c0_from_slice::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/polynomial.rs",
+        "begin_line": 350,
+        "end_line": 350
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 13,
+      "lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar.c0RistrettoScalar",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "fastcrypto_tbls::polynomial::{fastcrypto_tbls::polynomial::Poly::<fastcrypto::groups::ristretto255::RistrettoScalar>}::c0::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/polynomial.rs",
+        "begin_line": 401,
+        "end_line": 401
+      },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 5,
+      "lean_name": "FastcryptoShamir.generic.evalRistrettoScalar",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "aeneas_shamir::generic::eval::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": true,
+      "source": { "file": "src/lib.rs", "begin_line": 24, "end_line": 26 },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 6,
+      "lean_name": "FastcryptoShamir.generic.addRistrettoScalar",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "aeneas_shamir::generic::add::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": true,
+      "source": { "file": "src/lib.rs", "begin_line": 29, "end_line": 32 },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 7,
+      "lean_name": "FastcryptoShamir.generic.c0RistrettoScalar",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "aeneas_shamir::generic::c0::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": true,
+      "source": { "file": "src/lib.rs", "begin_line": 35, "end_line": 37 },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 8,
+      "lean_name": "FastcryptoShamir.generic.degree_boundRistrettoScalar",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "aeneas_shamir::generic::degree_bound::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": true,
+      "source": { "file": "src/lib.rs", "begin_line": 40, "end_line": 42 },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 9,
+      "lean_name": "FastcryptoShamir.generic.recover_c0RistrettoScalar",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "aeneas_shamir::generic::recover_c0::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": true,
+      "source": { "file": "src/lib.rs", "begin_line": 45, "end_line": 47 },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 0,
+      "lean_name": "FastcryptoShamir.ristretto.eval",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "aeneas_shamir::ristretto::eval",
+      "is_local": true,
+      "source": { "file": "src/lib.rs", "begin_line": 56, "end_line": 58 },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 1,
+      "lean_name": "FastcryptoShamir.ristretto.add",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "aeneas_shamir::ristretto::add",
+      "is_local": true,
+      "source": { "file": "src/lib.rs", "begin_line": 61, "end_line": 63 },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 2,
+      "lean_name": "FastcryptoShamir.ristretto.c0",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "aeneas_shamir::ristretto::c0",
+      "is_local": true,
+      "source": { "file": "src/lib.rs", "begin_line": 66, "end_line": 68 },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 3,
+      "lean_name": "FastcryptoShamir.ristretto.degree_bound",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "aeneas_shamir::ristretto::degree_bound",
+      "is_local": true,
+      "source": { "file": "src/lib.rs", "begin_line": 71, "end_line": 73 },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": false,
+      "is_rec": false,
+      "reducible": false
+    },
+    {
+      "def_id": 4,
+      "lean_name": "FastcryptoShamir.ristretto.recover_c0",
+      "lean_file": "/FastcryptoShamir/Code/Funs.lean",
+      "rust_name": "aeneas_shamir::ristretto::recover_c0",
+      "is_local": true,
+      "source": { "file": "src/lib.rs", "begin_line": 76, "end_line": 81 },
+      "is_opaque": false,
+      "can_fail": true,
+      "can_diverge": true,
+      "is_rec": false,
+      "reducible": false
+    }
+  ],
+  "types": [
+    {
+      "def_id": 2,
+      "lean_name": "core.num.nonzero.NonZeroU16",
+      "lean_file": "/FastcryptoShamir/Code/TypesExternal_Template.lean",
+      "rust_name": "core::num::nonzero::NonZero::<u16>",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/core/src/num/nonzero.rs",
+        "begin_line": 112,
+        "end_line": 112
+      }
+    },
+    {
+      "def_id": 1,
+      "lean_name": "fastcrypto.groups.ristretto255.RistrettoScalar",
+      "lean_file": "/FastcryptoShamir/Code/TypesExternal_Template.lean",
+      "rust_name": "fastcrypto::groups::ristretto255::RistrettoScalar",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/groups/ristretto255.rs",
+        "begin_line": 271,
+        "end_line": 271
+      }
+    },
+    {
+      "def_id": 6,
+      "lean_name": "alloc.vec.VecRistrettoScalar",
+      "lean_file": "/FastcryptoShamir/Code/TypesExternal_Template.lean",
+      "rust_name": "alloc::vec::Vec::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/alloc/src/vec/mod.rs",
+        "begin_line": 436,
+        "end_line": 436
+      }
+    },
+    {
+      "def_id": 10,
+      "lean_name": "alloc.vec.VecU128",
+      "lean_file": "/FastcryptoShamir/Code/TypesExternal_Template.lean",
+      "rust_name": "alloc::vec::Vec::<u128>",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/alloc/src/vec/mod.rs",
+        "begin_line": 436,
+        "end_line": 436
+      }
+    },
+    {
+      "def_id": 9,
+      "lean_name": "FastcryptoShamir.core.ops.range.RangeFromUsize",
+      "lean_file": "/FastcryptoShamir/Code/Types.lean",
+      "rust_name": "core::ops::range::RangeFrom::<usize>",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/core/src/ops/range.rs",
+        "begin_line": 197,
+        "end_line": 197
+      }
+    },
+    {
+      "def_id": 5,
+      "lean_name": "FastcryptoShamir.fastcrypto.error.FastCryptoError",
+      "lean_file": "/FastcryptoShamir/Code/Types.lean",
+      "rust_name": "fastcrypto::error::FastCryptoError",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/error.rs",
+        "begin_line": 18,
+        "end_line": 18
+      }
+    },
+    {
+      "def_id": 4,
+      "lean_name": "FastcryptoShamir.core.result.ResultRistrettoScalarFastCryptoError",
+      "lean_file": "/FastcryptoShamir/Code/Types.lean",
+      "rust_name": "core::result::Result::<fastcrypto::groups::ristretto255::RistrettoScalar, fastcrypto::error::FastCryptoError>",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/core/src/result.rs",
+        "begin_line": 558,
+        "end_line": 558
+      }
+    },
+    {
+      "def_id": 11,
+      "lean_name": "FastcryptoShamir.core.result.ResultPairRistrettoScalarVecRistrettoScalarFastCryptoError",
+      "lean_file": "/FastcryptoShamir/Code/Types.lean",
+      "rust_name": "core::result::Result::<(fastcrypto::groups::ristretto255::RistrettoScalar, alloc::vec::Vec::<fastcrypto::groups::ristretto255::RistrettoScalar, alloc::alloc::Global>), fastcrypto::error::FastCryptoError>",
+      "is_local": false,
+      "source": {
+        "file": "/rustc/library/core/src/result.rs",
+        "begin_line": 558,
+        "end_line": 558
+      }
+    },
+    {
+      "def_id": 3,
+      "lean_name": "FastcryptoShamir.fastcrypto_tbls.types.IndexedValueRistrettoScalar",
+      "lean_file": "/FastcryptoShamir/Code/Types.lean",
+      "rust_name": "fastcrypto_tbls::types::IndexedValue::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/types.rs",
+        "begin_line": 49,
+        "end_line": 49
+      }
+    },
+    {
+      "def_id": 0,
+      "lean_name": "FastcryptoShamir.fastcrypto_tbls.polynomial.PolyRistrettoScalar",
+      "lean_file": "/FastcryptoShamir/Code/Types.lean",
+      "rust_name": "fastcrypto_tbls::polynomial::Poly::<fastcrypto::groups::ristretto255::RistrettoScalar>",
+      "is_local": false,
+      "source": {
+        "file": "/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/polynomial.rs",
+        "begin_line": 26,
+        "end_line": 26
+      }
+    }
+  ],
+  "globals": [],
+  "trait_decls": [],
+  "trait_impls": []
+}
