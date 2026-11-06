@@ -49,10 +49,8 @@ lean-learning/
   pedersen-exercises/
 ```
 
-The Rust crates get fastcrypto from git, with one exception.
-`aeneas-shamir` uses a path dependency. It needs a fastcrypto clone at
-`../../../fastcrypto` (relative to `aeneas-shamir`) on branch
-`aeneas-shamir-loop`.
+The Rust crates get fastcrypto from git. `aeneas-shamir` uses commit
+`878842e9` on branch `aeneas-shamir-loop`. You do not need a local clone.
 
 The Aeneas-backed projects use Lean 4.31.0. The standalone playground remains
 on its original Lean 4.32.2 setup.

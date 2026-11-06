@@ -190,7 +190,7 @@ axiom
     fastcrypto.groups.ristretto255.RistrettoScalar
 
 /-- [fastcrypto::groups::ristretto255::{impl core::convert::From<u128> for fastcrypto::groups::ristretto255::RistrettoScalar}::from::<u128>]:
-    Source: '/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/groups/ristretto255.rs', lines 268:44-268:48
+    Source: '/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/878842e/fastcrypto/src/groups/ristretto255.rs', lines 268:44-268:48
     Name pattern: [fastcrypto::groups::ristretto255::{core::convert::From<fastcrypto::groups::ristretto255::RistrettoScalar, u128>}::from<u128>]
     Visibility: public -/
 @[rust_fun
@@ -200,7 +200,7 @@ axiom
   : Std.U128 → Result fastcrypto.groups.ristretto255.RistrettoScalar
 
 /-- [fastcrypto::groups::ristretto255::{impl core::ops::arith::Add<fastcrypto::groups::ristretto255::RistrettoScalar> for fastcrypto::groups::ristretto255::RistrettoScalar}::add]:
-    Source: '/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/groups/ristretto255.rs', lines 268:50-268:53
+    Source: '/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/878842e/fastcrypto/src/groups/ristretto255.rs', lines 268:50-268:53
     Name pattern: [fastcrypto::groups::ristretto255::{core::ops::arith::Add<fastcrypto::groups::ristretto255::RistrettoScalar, fastcrypto::groups::ristretto255::RistrettoScalar>}::add]
     Visibility: public -/
 @[rust_fun
@@ -213,7 +213,7 @@ axiom
     fastcrypto.groups.ristretto255.RistrettoScalar
 
 /-- [fastcrypto::groups::ristretto255::{impl core::ops::arith::Sub<fastcrypto::groups::ristretto255::RistrettoScalar> for fastcrypto::groups::ristretto255::RistrettoScalar}::sub]:
-    Source: '/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/groups/ristretto255.rs', lines 268:55-268:58
+    Source: '/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/878842e/fastcrypto/src/groups/ristretto255.rs', lines 268:55-268:58
     Name pattern: [fastcrypto::groups::ristretto255::{core::ops::arith::Sub<fastcrypto::groups::ristretto255::RistrettoScalar, fastcrypto::groups::ristretto255::RistrettoScalar>}::sub]
     Visibility: public -/
 @[rust_fun
@@ -226,7 +226,7 @@ axiom
     fastcrypto.groups.ristretto255.RistrettoScalar
 
 /-- [fastcrypto::groups::ristretto255::{impl core::ops::arith::Mul<fastcrypto::groups::ristretto255::RistrettoScalar> for fastcrypto::groups::ristretto255::RistrettoScalar}::mul]:
-    Source: '/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/groups/ristretto255.rs', lines 268:60-268:63
+    Source: '/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/878842e/fastcrypto/src/groups/ristretto255.rs', lines 268:60-268:63
     Name pattern: [fastcrypto::groups::ristretto255::{core::ops::arith::Mul<fastcrypto::groups::ristretto255::RistrettoScalar, fastcrypto::groups::ristretto255::RistrettoScalar>}::mul]
     Visibility: public -/
 @[rust_fun
@@ -239,7 +239,7 @@ axiom
     fastcrypto.groups.ristretto255.RistrettoScalar
 
 /-- [fastcrypto::groups::ristretto255::{impl core::ops::arith::Neg for fastcrypto::groups::ristretto255::RistrettoScalar}::neg]:
-    Source: '/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/groups/ristretto255.rs', lines 268:65-268:68
+    Source: '/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/878842e/fastcrypto/src/groups/ristretto255.rs', lines 268:65-268:68
     Name pattern: [fastcrypto::groups::ristretto255::{core::ops::arith::Neg<fastcrypto::groups::ristretto255::RistrettoScalar>}::neg]
     Visibility: public -/
 @[rust_fun
@@ -250,7 +250,7 @@ axiom fastcrypto.groups.ristretto255.RistrettoScalar.Insts.CoreOpsArithNeg.neg
     fastcrypto.groups.ristretto255.RistrettoScalar
 
 /-- [fastcrypto::groups::ristretto255::{impl fastcrypto::groups::GroupElement for fastcrypto::groups::ristretto255::RistrettoScalar}::zero]:
-    Source: '/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/groups/ristretto255.rs', lines 297:4-297:21
+    Source: '/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/878842e/fastcrypto/src/groups/ristretto255.rs', lines 297:4-297:21
     Name pattern: [fastcrypto::groups::ristretto255::{fastcrypto::groups::GroupElement<fastcrypto::groups::ristretto255::RistrettoScalar>}::zero]
     Visibility: public -/
 @[rust_fun
@@ -260,7 +260,7 @@ axiom
   : Result fastcrypto.groups.ristretto255.RistrettoScalar
 
 /-- [fastcrypto::groups::ristretto255::{impl fastcrypto::groups::GroupElement for fastcrypto::groups::ristretto255::RistrettoScalar}::generator]:
-    Source: '/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/groups/ristretto255.rs', lines 300:4-300:26
+    Source: '/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/878842e/fastcrypto/src/groups/ristretto255.rs', lines 300:4-300:26
     Name pattern: [fastcrypto::groups::ristretto255::{fastcrypto::groups::GroupElement<fastcrypto::groups::ristretto255::RistrettoScalar>}::generator]
     Visibility: public -/
 @[rust_fun
@@ -270,7 +270,7 @@ axiom
   : Result fastcrypto.groups.ristretto255.RistrettoScalar
 
 /-- [fastcrypto::groups::ristretto255::{impl fastcrypto::groups::Scalar for fastcrypto::groups::ristretto255::RistrettoScalar}::inverse]:
-    Source: '/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/groups/ristretto255.rs', lines 310:4-310:47
+    Source: '/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/878842e/fastcrypto/src/groups/ristretto255.rs', lines 310:4-310:47
     Name pattern: [fastcrypto::groups::ristretto255::{fastcrypto::groups::Scalar<fastcrypto::groups::ristretto255::RistrettoScalar>}::inverse]
     Visibility: public -/
 @[rust_fun
@@ -282,7 +282,7 @@ axiom
     core.result.ResultRistrettoScalarFastCryptoError
 
 /-- [fastcrypto_tbls::types::to_scalar::<fastcrypto::groups::ristretto255::RistrettoScalar, core::num::nonzero::NonZero::<u16>>]:
-    Source: '/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/types.rs', lines 55:0-55:71
+    Source: '/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/878842e/fastcrypto-tbls/src/types.rs', lines 55:0-55:71
     Name pattern: [fastcrypto_tbls::types::to_scalar<fastcrypto::groups::ristretto255::RistrettoScalar, core::num::nonzero::NonZero<u16>>] -/
 @[rust_fun
   "fastcrypto_tbls::types::to_scalar<fastcrypto::groups::ristretto255::RistrettoScalar, core::num::nonzero::NonZero<u16>>"]

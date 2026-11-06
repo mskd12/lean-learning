@@ -21,7 +21,7 @@ set_option maxRecDepth 2048
 axiom core.num.nonzero.NonZeroU16 : Type
 
 /-- [fastcrypto::groups::ristretto255::RistrettoScalar]
-    Source: '/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/groups/ristretto255.rs', lines 271:0-271:26
+    Source: '/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/878842e/fastcrypto/src/groups/ristretto255.rs', lines 271:0-271:26
     Name pattern: [fastcrypto::groups::ristretto255::RistrettoScalar]
     Visibility: public -/
 @[rust_type "fastcrypto::groups::ristretto255::RistrettoScalar"]

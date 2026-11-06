@@ -8,7 +8,8 @@ with Aeneas: `eval`, `add`, `c0`, `degree_bound`, and `recover_c0`.
 - Aeneas `74a460a2` and Charon `a1d98905` in `../.tools/aeneas`. Run
   `../scripts/setup-tools.sh` to build them.
 - Rust `nightly-2026-08-18`.
-- fastcrypto at `../../../fastcrypto`, on branch `aeneas-shamir-loop`.
+- Cargo gets fastcrypto from git at commit `878842e9` on branch
+  `aeneas-shamir-loop`.
 
 Later Charon versions reject `--preset=aeneas` together with
 `--monomorphize`.

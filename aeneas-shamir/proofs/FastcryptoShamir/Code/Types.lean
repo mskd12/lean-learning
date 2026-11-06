@@ -24,7 +24,7 @@ structure core.ops.range.RangeFromUsize where
   start : Std.Usize
 
 /-- [fastcrypto::error::FastCryptoError]
-    Source: '/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto/src/error.rs', lines 18:0-18:24
+    Source: '/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/878842e/fastcrypto/src/error.rs', lines 18:0-18:24
     Name pattern: [fastcrypto::error::FastCryptoError]
     Visibility: public -/
 @[discriminant isize, rust_type "fastcrypto::error::FastCryptoError"]
@@ -76,7 +76,7 @@ inductive core.result.ResultPairRistrettoScalarVecRistrettoScalarFastCryptoError
   core.result.ResultPairRistrettoScalarVecRistrettoScalarFastCryptoError
 
 /-- [fastcrypto_tbls::types::IndexedValue::<fastcrypto::groups::ristretto255::RistrettoScalar>]
-    Source: '/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/types.rs', lines 49:0-49:26
+    Source: '/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/878842e/fastcrypto-tbls/src/types.rs', lines 49:0-49:26
     Name pattern: [fastcrypto_tbls::types::IndexedValue<fastcrypto::groups::ristretto255::RistrettoScalar>]
     Visibility: public -/
 @[rust_type
@@ -86,7 +86,7 @@ structure fastcrypto_tbls.types.IndexedValueRistrettoScalar where
   value : fastcrypto.groups.ristretto255.RistrettoScalar
 
 /-- [fastcrypto_tbls::polynomial::Poly::<fastcrypto::groups::ristretto255::RistrettoScalar>]
-    Source: '/Users/saikrishnadeepakmaram/Desktop/fastcrypto/fastcrypto-tbls/src/polynomial.rs', lines 26:0-26:18
+    Source: '/cargo/git/checkouts/fastcrypto-9995504e1c5344d5/878842e/fastcrypto-tbls/src/polynomial.rs', lines 26:0-26:18
     Name pattern: [fastcrypto_tbls::polynomial::Poly<fastcrypto::groups::ristretto255::RistrettoScalar>]
     Visibility: public -/
 @[reducible, rust_type
