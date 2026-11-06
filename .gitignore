@@ -2,9 +2,8 @@
 
 /.codex/
 /.agents/
-/tools/
+/.tools/
 **/.lake/
 **/target/
 **/.opam-root/
-**/tools/
 **/generated/*.llbc

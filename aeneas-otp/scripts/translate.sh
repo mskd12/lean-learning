@@ -2,7 +2,7 @@
 set -euo pipefail
 
 OTP_PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-AENEAS_DIR="$OTP_PROJECT_DIR/../tools/aeneas"
+AENEAS_DIR="$OTP_PROJECT_DIR/../.tools/aeneas"
 CHARON_BIN="$AENEAS_DIR/charon/bin/charon"
 AENEAS_BIN="$AENEAS_DIR/bin/aeneas"
 

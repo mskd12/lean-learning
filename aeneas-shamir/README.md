@@ -5,9 +5,10 @@ with Aeneas: `eval`, `add`, `c0`, `degree_bound`, and `recover_c0`.
 
 ## Requirements
 
-- Aeneas `74a460a2` and Charon `a1d98905` in `../tools/aeneas`.
+- Aeneas `74a460a2` and Charon `a1d98905` in `../.tools/aeneas`. Run
+  `../scripts/setup-tools.sh` to build them.
 - Rust `nightly-2026-08-18`.
-- fastcrypto at `../../fastcrypto`, on branch `aeneas-shamir-loop`.
+- fastcrypto at `../../../fastcrypto`, on branch `aeneas-shamir-loop`.
 
 Later Charon versions reject `--preset=aeneas` together with
 `--monomorphize`.

@@ -5,5 +5,5 @@ edition = "2021"
 publish = false
 
 [dependencies]
-fastcrypto = { path = "../../fastcrypto/fastcrypto" }
-fastcrypto-tbls = { path = "../../fastcrypto/fastcrypto-tbls" }
+fastcrypto = { git = "https://github.com/MystenLabs/fastcrypto.git", rev = "314f67aefd31b8a53e516ca0c8860ac6744101e8" }
+fastcrypto-tbls = { git = "https://github.com/MystenLabs/fastcrypto.git", rev = "314f67aefd31b8a53e516ca0c8860ac6744101e8" }

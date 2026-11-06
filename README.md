@@ -12,6 +12,9 @@ Aeneas, and VCVio through cryptographic examples.
 - `sigma-exercises`: guided proofs of completeness, special soundness,
   deterministic simulation, and perfect honest-verifier zero knowledge for
   the Schnorr Sigma protocol.
+- `pedersen-exercises`: guided proofs of correctness, perfect hiding (by
+  pushforward and by coupling), and the binding-to-DLog reduction for
+  VCVio's Pedersen commitment.
 - `aeneas-sigma`: verifies fastcrypto's interactive `commit`, `respond`, and
   `verify` core against a Lean specification and specializes VCVio's existing
   completeness, special-soundness, and perfect-HVZK theorems to that model.
@@ -21,20 +24,35 @@ in this repository yet.
 
 ## Local setup
 
-This is a learning snapshot, not a self-contained installer. Build caches,
-toolchains, Aeneas, Charon, VCVio, and fastcrypto are not vendored. The Aeneas
-projects currently expect the same sibling layout used during development:
+The Lean projects do not need files outside this repository. Each lakefile
+gets VCVio and the Aeneas Lean library from git at a fixed commit:
+
+- VCVio `cbd4144b` (tag `v4.31.0`).
+- Aeneas `74a460a2`, subdirectory `backends/lean`.
+
+To build a Lean project, go to its directory and run `lake build`. Lake
+clones the dependencies into `.lake/packages`. Mathlib downloads its build
+cache during `lake update`.
+
+The `translate.sh` scripts also need the Aeneas and Charon binaries. Run
+`scripts/setup-tools.sh` one time to build them. The script puts them in
+`.tools/aeneas`. Git ignores `.tools/`. The script uses the same Aeneas
+commit as the lakefiles.
 
 ```text
 lean-learning/
-  tools/
+  .tools/
     aeneas/
-    VCVio-v4.31.0/
   aeneas-otp/
   aeneas-sigma/
   sigma-exercises/
-../fastcrypto/
+  pedersen-exercises/
 ```
+
+The Rust crates get fastcrypto from git, with one exception.
+`aeneas-shamir` uses a path dependency. It needs a fastcrypto clone at
+`../../../fastcrypto` (relative to `aeneas-shamir`) on branch
+`aeneas-shamir-loop`.
 
 The Aeneas-backed projects use Lean 4.31.0. The standalone playground remains
 on its original Lean 4.32.2 setup.

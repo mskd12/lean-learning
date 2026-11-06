@@ -136,5 +136,4 @@ Build the proof project after the external models exist:
 ```
 
 The translation currently uses Rust nightly `2026-08-18`, Lean `4.31.0`, the
-local Aeneas checkout at `../tools/aeneas`, and the local VCVio checkout at
-`../tools/VCVio-v4.31.0`.
+Aeneas binaries in `../.tools/aeneas`, and VCVio `v4.31.0` from git.
